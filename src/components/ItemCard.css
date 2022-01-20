@@ -1,0 +1,22 @@
+
+.itemCard{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+.itemCard__img img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.itemCard__description{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
