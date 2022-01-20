@@ -1,10 +1,14 @@
 
 .itemCard{
-    border: 1px solid black;
     width: 100%;
     max-width: 40rem;
-    border-radius: 1rem;
+    border-radius: 1.3rem;
     overflow: hidden;
+    background-color: var(--white);
+
+    box-shadow: 0px 3px 12px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 12px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 12px -4px rgba(0,0,0,0.75);
 }
 
 
@@ -19,4 +23,22 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+}
+
+.btn-card{
+    border: 1px solid var(--white);
+    background-color: var(--branding);
+    border-radius: 1rem;
+    padding: .2rem .5rem;
+    color: var(--white);
+    transition: all .5s;
+    width: max-content;
+    cursor: pointer;
+}
+
+.btn-card:hover{
+    border: 1px solid var(--branding);
+    background-color: var(--white);
+    color: var(--branding);
+    
 }

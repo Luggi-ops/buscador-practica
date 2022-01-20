@@ -1,0 +1,24 @@
+
+.form-control-plaintext{
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: .5rem;
+    outline: 1px solid var(--branding);
+}
+
+.btn-search{
+    border: 1px solid var(--white);
+    background-color: var(--branding);
+    border-radius: 1rem;
+    padding: .2rem .5rem;
+    color: var(--white);
+    transition: all .5s;
+}
+
+
+.btn-search:hover{
+    border: 1px solid var(--branding);
+    background-color: var(--white);
+    color: var(--branding);
+    
+}

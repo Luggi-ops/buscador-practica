@@ -4,7 +4,6 @@ import './ItemCard.css';
 const ItemCard = ({props}) => {
 
   const {id, name, description, img } = props;
-  console.log(img)
 
   return (
     <>
@@ -16,8 +15,8 @@ const ItemCard = ({props}) => {
             <div className="itemCard__description">
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <span>Button</span>
-                <span>{id}</span>
+                <span className="btn-card">Ver más</span>
+                <span>Código: {id}</span>
             </div>
         </div>
     </>
